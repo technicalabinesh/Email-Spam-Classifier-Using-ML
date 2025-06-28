@@ -36,6 +36,5 @@ Build a Flask or Streamlit web app to classify new emails
 
 🎯 Conclusion
 
-You've now built a working email spam classifier! You can deploy it as a web service or integrate it into email clients or apps for real-world use.
-
+You've now built a working email spam classifier! You can deploy it as a web service or integrate it into email clients or apps for real-world uses. 
 
