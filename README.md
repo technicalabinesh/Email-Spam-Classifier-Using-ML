@@ -96,7 +96,7 @@ The script will:
 Raw text
    │
    ▼
-Lower-case → Remove digits/punctuation → Tokenise
+Lower-case → Remove digits/punctuation → Tokenize
    │
    ▼
 Remove stop-words → Porter Stemming

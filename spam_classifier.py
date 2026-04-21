@@ -13,6 +13,8 @@ Steps
 5. Compare results and persist the best model
 """
 
+from __future__ import annotations
+
 import os
 import re
 import string
@@ -104,7 +106,7 @@ def plot_class_distribution(df: pd.DataFrame) -> None:
 # ---------------------------------------------------------------------------
 
 def preprocess_text(text: str) -> str:
-    """Lowercase → remove punctuation/digits → tokenise → remove stop-words → stem."""
+    """Lowercase → remove punctuation/digits → tokenize → remove stop-words → stem."""
     text = text.lower()
     text = re.sub(r"\d+", "", text)
     text = text.translate(str.maketrans("", "", string.punctuation))
